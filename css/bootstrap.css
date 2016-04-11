@@ -1647,8 +1647,7 @@ ol ol,ol ul,ul ol,ul ul {
 
 .list-inline>li {
     display: inline-block;
-    padding-left: 5px;
-    padding-right: 5px
+    padding: 30px 5px 0 5px;
 }
 
 dl {
@@ -4352,7 +4351,8 @@ tbody.collapse.in {
 .nav {
     margin-bottom: 0;
     padding-left: 0;
-    list-style: none
+    list-style: none;
+    font-size: 30px;
 }
 
 .nav:after,.nav:before {
@@ -4374,6 +4374,7 @@ tbody.collapse.in {
     position: relative;
     display: block;
     padding: 10px 15px
+
 }
 
 .nav>li>a:focus,.nav>li>a:hover {
@@ -4407,6 +4408,7 @@ tbody.collapse.in {
 
 .nav>li>a>img {
     max-width: none
+
 }
 
 .nav-tabs {
@@ -4463,7 +4465,6 @@ tbody.collapse.in {
 .centered-pills {
     text-align: center;
     margin-top: 10px
-
 }
 
 .centered-pills .nav>li>a {
@@ -4476,6 +4477,7 @@ tbody.collapse.in {
 
 .centered-pills .nav-pills {
     display: inline-block
+
 }
 
 .centered-pills .nav-pills>li {
