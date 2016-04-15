@@ -4350,9 +4350,9 @@ tbody.collapse.in {
 }
 
 .nav {
-    margin-bottom: 0;
-    padding-left: 0;
-    list-style: none
+    letter-spacing: 40px;
+    list-style: none;
+    font-size:26px;
 }
 
 .nav:after,.nav:before {
@@ -4366,14 +4366,14 @@ tbody.collapse.in {
 
 .nav>li {
     position: relative;
-    display: block
+    display: block;
 }
 
 .nav>li>a {
     color: #6c6c6c;
     position: relative;
     display: block;
-    padding: 10px 15px
+    padding: 5px 0px 0px 5px;
 }
 
 .nav>li>a:focus,.nav>li>a:hover {
